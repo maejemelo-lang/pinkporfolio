@@ -125,29 +125,9 @@ section>* {
     z-index: 1;
 }
 
-section::before {
-    content: "✧";
-    position: absolute;
-    top: 35px;
-    right: 7%;
-    color: var(--pink);
-    font-size: 30px;
-    opacity: 0.75;
-    z-index: 0;
-    pointer-events: none;
-}
 
-section::after {
-    content: "♡";
-    position: absolute;
-    bottom: 25px;
-    left: 5%;
-    color: var(--lavender);
-    font-size: 28px;
-    opacity: 0.7;
-    z-index: 0;
-    pointer-events: none;
-}
+
+
 
 .hero {
     min-height: 85vh;
@@ -208,26 +188,9 @@ section::after {
     position: relative;
 }
 
-.hero-image::before {
-    content: "୨୧";
-    position: absolute;
-    top: -25px;
-    right: -20px;
-    color: var(--pink);
-    font-size: 42px;
-    z-index: 2;
-    transform: rotate(15deg);
-}
 
-.hero-image::after {
-    content: "✧";
-    position: absolute;
-    bottom: 15px;
-    left: -25px;
-    color: var(--lavender);
-    font-size: 35px;
-    text-shadow: 0 0 15px var(--lavender);
-}
+
+
 
 .hero-image img {
     width: 100%;
@@ -283,14 +246,7 @@ section::after {
     position: relative;
 }
 
-.about-content::before {
-    content: "✧";
-    position: absolute;
-    top: 10px;
-    right: 18px;
-    color: var(--pink);
-    font-size: 25px;
-}
+
 
 .about-text {
     font-size: 15px;
