@@ -163,25 +163,8 @@ section::after {
     text-align: left;
 }
 
-.hero::before {
-    content: "✦";
-    top: 12%;
-    left: 5%;
-    right: auto;
-    font-size: 38px;
-    text-shadow: 0 0 15px var(--pink);
-}
 
-.hero::after {
-    content: "୨୧";
-    bottom: 8%;
-    left: auto;
-    right: 7%;
-    font-size: 48px;
-    color: var(--pink);
-    transform: rotate(-12deg);
-}
-
+   
 .hero-content {
     flex: 1;
     max-width: 600px;
