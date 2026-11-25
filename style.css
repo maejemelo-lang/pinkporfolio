@@ -653,47 +653,9 @@ nav a[href="#contact"]::after {
     position: relative;
 }
 
-.hero-image::before {
-    content: "୨୧";
-    position: absolute;
-    top: -35px;
-    right: -20px;
-    color: #f7b6d2;
-    font-size: 48px;
-    z-index: 3;
-    transform: rotate(15deg);
-}
-
-.hero-image::after {
-    content: "✧  ·  ✦";
-    position: absolute;
-    bottom: 10px;
-    left: -35px;
-    color: #c4a8f0;
-    font-size: 27px;
-    text-shadow: 0 0 15px #c4a8f0;
-}
 
 .hero-content {
     position: relative;
 }
 
-.hero-content::before {
-    content: "♡";
-    position: absolute;
-    top: -65px;
-    right: 15%;
-    color: #f7b6d2;
-    font-size: 35px;
-    transform: rotate(-15deg);
-}
 
-.hero-content::after {
-    content: "✦";
-    position: absolute;
-    top: -35px;
-    left: -25px;
-    color: #c4a8f0;
-    font-size: 25px;
-    text-shadow: 0 0 15px #c4a8f0;
-}
